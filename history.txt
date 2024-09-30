@@ -1,0 +1,65 @@
+    1  mkdir ~/Exercice1
+    2  cd ~/Exercice1
+    3  wget http://plurital.org/ppe1/seance1/archive-29.zip
+    4  unzip archive-29.zip
+    5  mkdir -p txt/{2017,2018}/{01,02,03,04,05,06,07,08,09,10,11,12}
+    6  mkdir -p ann/{2017,2018}/{01,02,03,04,05,06,07,08,09,10,11,12}
+    7  mkdir -p ann/{2017,2018}/{01,02,03,04,05,06,07,08,09,10,11,12}mkdir -p img/{Paris,Tokyo}/
+    8  echo -e '\e[6 q'
+    9  mv 2017_01*.txt txt/2017/01/
+   10  mv 2017_02*.txt txt/2017/02/
+   11  mv 2017_03*.txt txt/2017/03/
+   12  mv 2017_04*.txt txt/2017/04/
+   13  mv 2017_05*.txt txt/2017/05/
+   14  mv 2017_06*.txt txt/2017/06/
+   15  mv 2017_07*.txt txt/2017/07/
+   16  mv 2017_08*.txt txt/2017/08/
+   17  mv 2017_09*.txt txt/2017/09/
+   18  mv 2017_10*.txt txt/2017/10/
+   19  mv 2017_11*.txt txt/2017/11/
+   20  mv 2017_12*.txt txt/2017/12/
+   21  mv 2018_01*.txt txt/2018/01/
+   22  mv 2018_02*.txt txt/2018/02/
+   23  mv 2018_03*.txt txt/2018/03/
+   24  mv 2018_04*.txt txt/2018/04/
+   25  mv 2018_05*.txt txt/2018/05/
+   26  mv 2018_06*.txt txt/2018/06/
+   27  mv 2018_07*.txt txt/2018/07/
+   28  mv 2018_08*.txt txt/2018/08/
+   29  mv 2018_09*.txt txt/2018/09/
+   30  mv 2018_10*.txt txt/2018/10/
+   31  mv 2018_11*.txt txt/2018/11/
+   32  mv 2018_12*.txt txt/2018/12/
+   33  mv 2017_01*.ann ann/2017/01/
+   34  mv 2017_02*.ann ann/2017/02/
+   35  mv 2017_03*.ann ann/2017/03/
+   36  mv 2017_04*.ann ann/2017/04/
+   37  mv 2017_05*.ann ann/2017/05/
+   38  mv 2017_06*.ann ann/2017/06/
+   39  mv 2017_07*.ann ann/2017/07/
+   40  mv 2017_08*.ann ann/2017/08/
+   41  mv 2017_09*.ann ann/2017/09/
+   42  mv 2017_10*.ann ann/2017/10/
+   43  mv 2017_11*.ann ann/2017/11/
+   44  mv 2017_12*.ann ann/2017/12/
+   45  mv 2018_01*.ann ann/2018/01/
+   46  mv 2018_02*.ann ann/2018/02/
+   47  mv 2018_03*.ann ann/2018/03/
+   48  mv 2018_04*.ann ann/2018/04/
+   49  mv 2018_05*.ann ann/2018/05/
+   50  mv 2018_06*.ann ann/2018/06/
+   51  mv 2018_07*.ann ann/2018/07/
+   52  mv 2018_08*.ann ann/2018/08/
+   53  mv 2018_09*.ann ann/2018/09/
+   54  mv 2018_10*.ann ann/2018/10/
+   55  mv 2018_11*.ann ann/2018/11/
+   56  mv 2018_12*.ann ann/2018/12/
+   57  mv *Paris*.jpg *Paris*.jpeg *Paris*.png *Paris*.svg *Paris*.tif /img/Paris/
+   58  ls img/Paris/
+   59  mv *Paris*.jpg *Paris*.jpeg *Paris*.png *Paris*.svg *Paris*.tif img/Paris/
+   60  mv *Paris*.gif img/Paris/
+   61  mv *Tokyo*.jpg *Tokyo*.jpeg *Tokyo*.png *Tokyo*.svg *Tokyo*.gif img/Tokyo/
+   62  mkdir docs
+   63  mv *.pdf *.docx *.odt docs
+   64  history 
+   65  history > history.txt
